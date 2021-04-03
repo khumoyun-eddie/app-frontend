@@ -8,6 +8,6 @@
   display: inline-block;
   @include material-shadow(1);
   &:hover {
-    @include material-shadow(5);
+    @include material-shadow(6);
   }
 }
