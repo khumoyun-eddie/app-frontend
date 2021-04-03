@@ -1,0 +1,13 @@
+@import "../../../styles/utlis.scss";
+
+.button {
+  background: material-color("blue-grey", "600");
+  padding: 10px;
+  color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  @include material-shadow(1);
+  &:hover {
+    @include material-shadow(5);
+  }
+}
