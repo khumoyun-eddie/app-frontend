@@ -4,10 +4,10 @@
   background: material-color("blue-grey", "600");
   padding: 10px;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 20px;
   display: inline-block;
   @include material-shadow(1);
   &:hover {
-    @include material-shadow(6);
+    @include material-shadow(5);
   }
 }
