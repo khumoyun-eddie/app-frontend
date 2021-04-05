@@ -1,11 +1,13 @@
 @import "../../../styles/utlis.scss";
-
+@import "../../../styles/base/all";
 .button {
   background: material-color("blue-grey", "600");
-  padding: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
   color: #fff;
   border-radius: 20px;
   display: inline-block;
+  font-family: 'Kumbh Sans', sans-serif;
   @include material-shadow(1);
   &:hover {
     @include material-shadow(5);

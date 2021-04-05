@@ -1,5 +1,7 @@
 @import "../../../styles/utlis.scss";
-
+@import '../../../styles/base/all.scss';
 .logo{
-    background: material-color("blue-grey", "600");
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 3rem;
+    color: white;
 }

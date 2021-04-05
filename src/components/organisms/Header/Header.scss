@@ -1,0 +1,13 @@
+@import '../../../styles/utlis.scss';
+
+.header{
+    background: material-color("blue-grey",'500');
+    height: 3.5rem;
+    .responsive{
+        padding: 1rem;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        @include responsive();
+    };
+}

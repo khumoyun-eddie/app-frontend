@@ -1,9 +1,13 @@
 import React from 'react';
-import {PageTemplates} from '../../';
+import {PageTemplates,Header} from '../../';
+
 const HomePage = ()=>{
     return(
-        <PageTemplates>
-            HOME    
+        <PageTemplates 
+            header={<Header />} 
+            responsive
+        >
+                
         </PageTemplates>
     );
 };

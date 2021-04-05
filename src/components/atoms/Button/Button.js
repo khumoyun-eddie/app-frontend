@@ -6,7 +6,7 @@ const cx = classNames.bind(styles);
 const Button = ()=>{
     return(
         <div className={cx('button')}>
-            Hi I am a Button
+           
         </div>
     )
 }

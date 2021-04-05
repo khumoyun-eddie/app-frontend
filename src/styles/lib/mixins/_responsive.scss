@@ -1,0 +1,11 @@
+@mixin responsive() {
+  padding: 1rem;
+  width: 1200px;
+  margin: 0 auto;
+  @include media("<huge") {
+    width: 1024px;
+  }
+  @include media("<large") {
+    width: 100%;
+  }
+}
