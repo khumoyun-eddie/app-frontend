@@ -1,15 +1,33 @@
 @import "../../../styles/utlis.scss";
 @import "../../../styles/base/all";
 .button {
-  background: material-color("blue-grey", "600");
-  padding: 1rem;
-  margin-top: 1rem;
-  color: #fff;
-  border-radius: 20px;
-  display: inline-block;
-  font-family: 'Kumbh Sans', sans-serif;
-  @include material-shadow(1);
+  background: material-color("orange", "700");
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s;
   &:hover {
     @include material-shadow(5);
+    background: material-color("orange", "300");
+  }
+  &:active {
+    @include material-shadow(5);
+    background: material-color("orange", "500");
+  }
+  &.invert {
+    border: 1px solid material-color("orange", "100");
+    background: transparent;
+    transition: all 0.3s;
+    &:hover {
+      @include material-shadow(5);
+      background: material-color("orange", "300");
+    }
+    &:active {
+      @include material-shadow(5);
+      background: material-color("orange", "500");
+    }
   }
 }

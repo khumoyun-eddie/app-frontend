@@ -1,0 +1,12 @@
+@import '../../../styles/utlis.scss';
+
+.block{
+    background: #fff;
+  
+    &.center{
+        text-align: center;
+    }
+    &.shadow{
+        @include material-shadow(3);
+    }
+}

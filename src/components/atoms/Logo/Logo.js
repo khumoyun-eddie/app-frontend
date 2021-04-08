@@ -1,17 +1,15 @@
-import React from 'react';
-import classNames from 'classnames/bind';
-// import {Route} from 'react-router-dom';
-// import {HomePage} from '../../../components';
-import styles from './Logo.scss';
+import React from "react";
+import classNames from "classnames/bind";
+import { Link } from "react-router-dom";
+import styles from "./Logo.scss";
 
 const cx = classNames.bind(styles);
-const Logo = ()=>{
-    return(
-        <div classNames = {cx('logo')}>
-            {/* <Route path = '/' component={HomePage} /> */}
-            iCoin
-        </div>
-    );
+const Logo = () => {
+  return (
+    <div to="/" classNames={cx("logo")}>
+      iCoin
+    </div>
+  );
 };
 
 export default Logo;

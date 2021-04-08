@@ -1,9 +1,10 @@
 @import '../utlis.scss';
 body{
-    background: material-color("orange","100");
+    background: white;
     margin: 0;
     box-sizing: border-box;
-    padding: 0 5%;
+    padding: 0;
+    height: 1500px;
 }
 *,*::before,*::after{
     box-sizing: inherit;

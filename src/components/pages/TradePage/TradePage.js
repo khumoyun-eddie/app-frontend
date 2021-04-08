@@ -1,6 +1,7 @@
 import React from "react";
 import classNames from "classnames/bind";
 import { PageTemplates, Header, Button } from "../..";
+import PolyBackground from "../../atoms/PolyBackground/PolyBackground";
 const cx = classNames.bind();
 const TradePage = () => {
   return (
@@ -8,6 +9,7 @@ const TradePage = () => {
       <div className={cx("button")}>
         Log In
       </div>
+      
     </PageTemplates>
   );
 };

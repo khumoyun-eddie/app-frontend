@@ -10,15 +10,13 @@
     
   }
   .content {
-    width: 1200px;
-    margin:0 auto;
-    &.has-header {
-      padding: 3.2rem;
+ 
+    &.padding {
+      padding-top: 3.2rem;
+      width: 75%;
     }
     &.responsive{
       @include responsive();
-      padding-left: 2rem;
-      padding-right: 1rem;
     }
   }
 }

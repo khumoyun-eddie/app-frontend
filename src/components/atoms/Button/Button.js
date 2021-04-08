@@ -3,10 +3,13 @@ import classNames from 'classnames/bind';
 import styles from './Button.scss';
 
 const cx = classNames.bind(styles);
-const Button = ()=>{
+const Button = ({children,invert})=>{
     return(
-        <div className={cx('button')}>
+        <div className={cx('button',{
+            invert
+        })}>
            
+           {children}
         </div>
     )
 }
