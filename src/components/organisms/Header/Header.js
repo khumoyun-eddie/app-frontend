@@ -1,7 +1,7 @@
 import React, { Children } from "react";
 import classNames from "classnames/bind";
 import styles from "./Header.scss";
-import { Button,Logo, HeaderNav } from "../../../components";
+import {Logo, HeaderNav, Button } from "../../../components";
 const cx = classNames.bind(styles);
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         <div className={cx('right-side')}>
          <HeaderNav />
-         
+         <Button invert>Click</Button>
         </div>
       </div>
     </div>
