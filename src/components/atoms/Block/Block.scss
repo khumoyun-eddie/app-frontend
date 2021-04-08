@@ -1,8 +1,12 @@
 @import '../../../styles/utlis.scss';
 
 .block{
-    background: #fff;
-  
+    padding: 0;
+    font-family: "Goldman",cursive;
+    letter-spacing: 3px;
+    h1{
+        color: #fff;    
+    }
     &.center{
         text-align: center;
     }
